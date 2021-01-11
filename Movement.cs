@@ -100,7 +100,7 @@ public class Movement : MonoBehaviour
         }
         if(NearToBashAbleObj)
         {
-            BashAbleObj.GetComponent<SpriteRenderer>().color = Color.white;
+            BashAbleObj.GetComponent<SpriteRenderer>().color = Color.yellow;
             if(Input.GetKeyDown(KeyCode.Mouse1))
             {
                 Time.timeScale = 0;
